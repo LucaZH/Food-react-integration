@@ -76,9 +76,9 @@ const Hero: FC = () => {
         </div>
       </div>
       <div className="flex justify-center">
-        <div className="relative">
+        <div className="relative flex justify-center">
           <img src="/img/Humberger.png" alt="Humberger" className="w-10/12" />
-          <div className="flex items-center  absolute bottom-20 bg-white px-2 py-1 pr-4 rounded-full shadow-lg gap-4">
+          <div className="flex items-center  absolute left-10 bottom-20 bg-white px-2 py-1 pr-4 rounded-full shadow-lg gap-4">
             <img
               src="/img/p1.jpg"
               alt="img"
