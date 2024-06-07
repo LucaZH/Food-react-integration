@@ -5,14 +5,14 @@ import Button from "./ui/Button";
 
 const NavBar: FC = () => {
   return (
-    <section className="flex items-center justify-between fixed w-full">
-      <div className="flex flex-col items-center">
+    <section className="flex items-center justify-between fixed w-[96%] backdrop-blur-md z-50 px-6 py-1 mx-[2%] rounded-full mt-2">
+      <div className="flex gap-2 items-center">
         <img
           src="/food-restaurant-svgrepo-com.svg"
           alt="logo"
-          className="w-10 h-10 bg-active rounded-full p-2"
+          className="w-8 h-8 bg-active rounded-full p-2"
         />
-        <h1 className="text-xl font-semibold">FOOD</h1>
+        <h1 className="text-sms font-bold">FOOD</h1>
       </div>
       <div className="flex gap-4">
         <Navitem text="Home" url="/" active={true}></Navitem>
