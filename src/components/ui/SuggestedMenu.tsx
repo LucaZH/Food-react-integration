@@ -7,7 +7,11 @@ const SuggestedMenu: FC<{ title: string; stars: number; price: number }> = ({
 }) => {
   return (
     <div className="flex absolute bottom-20 left-1/2 bg-white px-3 py-2 rounded-lg shadow-lg gap-4">
-      <img src="/img/plat.jpg" alt="img" className="w-20 h-20 rounded-lg" />
+      <img
+        src="/img/well-done-burger-bologna.jpg"
+        alt="img"
+        className="w-20 h-20 rounded-lg object-cover"
+      />
       <div>
         <p className="text-gray-800 font-semibold">{title}</p>
         <div className="flex gap-1">
