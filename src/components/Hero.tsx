@@ -47,19 +47,19 @@ const Hero: FC = () => {
         </div>
         <div className="flex mt-10 items-center">
           <img
-            src="/img/plat.jpg"
+            src="/img/p1.jpg"
             alt=""
-            className="rounded-full w-12 h-12 border-white border-2"
+            className="rounded-full w-12 h-12 border-white border-2 object-cover"
           />
           <img
-            src="/img/plat.jpg"
+            src="/img/p3.jpg"
             alt=""
-            className="rounded-full w-12 h-12 border-white border-2 -ml-6"
+            className="rounded-full w-12 h-12 border-white border-2 object-cover -ml-6"
           />
           <img
-            src="/img/plat.jpg"
+            src="/img/p2.avif"
             alt=""
-            className="rounded-full w-12 h-12 border-white border-2 -ml-6"
+            className="rounded-full w-12 h-12 border-white border-2 object-cover -ml-6"
           />
           <div className="ml-4">
             <p className="font-bold text-gray-500">Happy Customers</p>
@@ -77,26 +77,30 @@ const Hero: FC = () => {
       </div>
       <div className="flex justify-center">
         <div className="relative">
-          <img
-            src="/public/img/Humberger.png"
-            alt="Humberger"
-            className="w-10/12"
-          />
-          <div className="flex absolute bottom-20 bg-white px-2 py-1 rounded-full shadow-lg gap-4">
+          <img src="/img/Humberger.png" alt="Humberger" className="w-10/12" />
+          <div className="flex items-center  absolute bottom-20 bg-white px-2 py-1 pr-4 rounded-full shadow-lg gap-4">
             <img
-              src="/img/plat.jpg"
+              src="/img/p1.jpg"
               alt="img"
-              className="w-12 h-12 rounded-full"
+              className="w-12 h-12 rounded-full object-cover"
             />
             <div>
-              <p className="text-gray-800 font-semibold">Mohamed Bilal</p>
+              <p className="text-gray-800 font-semibold">Barry Allen</p>
               <span className="text-gray-500 text-sm font-medium">Courier</span>
             </div>
-            <img
-              src="/img/plat.jpg"
-              alt="img"
-              className="w-12 h-12 rounded-full"
-            />
+            <div className="rounded-full w-8 h-8 bg-active/80 flex items-center justify-center">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                className="w-6 h-6 stroke-white"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M16.5562 12.9062L16.1007 13.359C16.1007 13.359 15.0181 14.4355 12.0631 11.4972C9.10812 8.55901 10.1907 7.48257 10.1907 7.48257L10.4775 7.19738C11.1841 6.49484 11.2507 5.36691 10.6342 4.54348L9.37326 2.85908C8.61028 1.83992 7.13596 1.70529 6.26145 2.57483L4.69185 4.13552C4.25823 4.56668 3.96765 5.12559 4.00289 5.74561C4.09304 7.33182 4.81071 10.7447 8.81536 14.7266C13.0621 18.9492 17.0468 19.117 18.6763 18.9651C19.1917 18.9171 19.6399 18.6546 20.0011 18.2954L21.4217 16.883C22.3806 15.9295 22.1102 14.2949 20.8833 13.628L18.9728 12.5894C18.1672 12.1515 17.1858 12.2801 16.5562 12.9062Z"
+                  fill="#FFFFFF"
+                />
+              </svg>
+            </div>
           </div>
           <SuggestedMenu title="Spanish Burger" price={9} stars={4} />
         </div>
