@@ -1,5 +1,6 @@
 import { FC } from "react";
 import Button from "./ui/Button";
+import SuggestedMenu from "./ui/SuggestedMenu";
 
 const Hero: FC = () => {
   return (
@@ -75,11 +76,31 @@ const Hero: FC = () => {
         </div>
       </div>
       <div className="flex justify-center">
-        <img
-          src="/public/img/Humberger.png"
-          alt="Humberger"
-          className="w-10/12"
-        />
+        <div className="relative">
+          <img
+            src="/public/img/Humberger.png"
+            alt="Humberger"
+            className="w-10/12"
+          />
+          <div className="flex absolute bottom-20 bg-white px-2 py-1 rounded-full shadow-lg gap-4">
+            <img
+              src="/img/plat.jpg"
+              alt="img"
+              className="w-12 h-12 rounded-full"
+            />
+            <div>
+              <p className="text-gray-800 font-semibold">Mohamed Bilal</p>
+              <span className="text-gray-500 text-sm font-medium">Courier</span>
+            </div>
+            <img
+              src="/img/plat.jpg"
+              alt="img"
+              className="w-12 h-12 rounded-full"
+            />
+          </div>
+          <SuggestedMenu title="Spanish Burger" price={9} stars={4} />
+        </div>
+
         <div className=" absolute w-[600px] h-[600px] blur-3xl bg-active/30 rounded-full left-[46%] -z-40"></div>
       </div>
     </section>
