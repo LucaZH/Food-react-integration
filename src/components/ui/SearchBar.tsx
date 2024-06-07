@@ -6,7 +6,7 @@ const SearchBar: FC = () => {
       <input
         type="text"
         placeholder="Search"
-        className="w-full py-2 px-4 rounded-lg bg-black/5 text-black"
+        className="w-full py-2 px-4 rounded-lg bg-black/5 text-black md:min-w-96 lg:md:min-w-96"
       />
       <button className="absolute right-0 pr-2">
         <svg
