@@ -41,7 +41,7 @@ const MenuCard: FC<{
         </div>
         <div className="flex justify-between">
           <p className="text-2xl font-bold">${price}</p>
-          <button className="rounded-lg bg-active text-white py-2 px-10  text-lg font-semibold">
+          <button className="rounded-lg bg-active text-white py-2 px-[5%]  text-lg font-semibold">
             Order Now
           </button>
         </div>
