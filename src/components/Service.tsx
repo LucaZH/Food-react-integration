@@ -21,7 +21,7 @@ const Service: FC = () => {
   ];
   return (
     <section className="text-center flex flex-col space-y-16 my-24">
-      <h1 className="text-5xl font-bold text-gray-900">Why choose us?</h1>
+      <h1 className="text-4xl font-bold text-gray-900">Why choose us?</h1>
       <div className="flex justify-around">
         {services.map((item, index) => (
           <ServiceItem
