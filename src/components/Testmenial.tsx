@@ -31,7 +31,7 @@ const Testmonial: FC = () => {
   return (
     <section className="space-y-16 px-16 my-16">
       <div className="text-center">
-        <h1 className="text-5xl font-bold text-gray-900">
+        <h1 className="text-4xl font-bold text-gray-900">
           Food lover feedback
         </h1>
         <p className="text-gray-400">
