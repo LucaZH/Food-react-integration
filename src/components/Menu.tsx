@@ -5,7 +5,7 @@ import FoodItem from "./ui/FoodItem";
 const Menu: FC = () => {
   return (
     <section className="px-12">
-      <h1 className="text-5xl font-bold text-gray-900 w-1/3">
+      <h1 className="text-4xl font-bold text-gray-900 w-1/3">
         Make that Menu You eat Unstopable
       </h1>
       <div className="flex justify-end gap-4">
