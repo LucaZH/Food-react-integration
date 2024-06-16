@@ -13,7 +13,7 @@ const TestmonialCard: FC<{
         <img
           src={authorImg}
           alt={author}
-          className="w-24 h-24 rounded-full object-contain"
+          className="w-24 h-24 rounded-full object-cover"
         />
         <div className="flex flex-col ml-4">
           <h3 className="text-lg font-semibold">{author}</h3>
