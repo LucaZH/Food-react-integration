@@ -1,3 +1,4 @@
+import FullMenu from "./components/FullMenu";
 import Hero from "./components/Hero";
 import Menu from "./components/Menu";
 import NavBar from "./components/Navbar";
@@ -12,6 +13,7 @@ function App() {
       <Service />
       <Menu />
       <PubBanner />
+      <FullMenu />
     </>
   );
 }
