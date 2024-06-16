@@ -34,10 +34,7 @@ const Testmonial: FC = () => {
         <h1 className="text-4xl font-bold text-gray-900">
           Food lover feedback
         </h1>
-        <p className="text-gray-400">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
-          voluptatum modi ipsa iure facere atque blanditiis architecto eos sint
-        </p>
+        <p className="text-gray-400">See what pepole say about our services</p>
       </div>
       <div className="flex gap-10">
         {Testmanialitems.map((item) => (
