@@ -4,6 +4,7 @@ import Menu from "./components/Menu";
 import NavBar from "./components/Navbar";
 import PubBanner from "./components/PubBanner";
 import Service from "./components/Service";
+import Testmonial from "./components/Testmenial";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Menu />
       <PubBanner />
       <FullMenu />
+      <Testmonial />
     </>
   );
 }
