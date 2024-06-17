@@ -4,7 +4,7 @@ import Menu from "./components/Menu";
 import NavBar from "./components/Navbar";
 import PubBanner from "./components/PubBanner";
 import Service from "./components/Service";
-import Testmonial from "./components/Testmenial";
+import Testmonial from "./components/Testmonial";
 
 function App() {
   return (
