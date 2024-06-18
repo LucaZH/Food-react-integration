@@ -5,7 +5,7 @@ const PubBanner: FC = () => {
     <img
       src="/public/img/plat.jpg"
       alt="PubBanner"
-      className="w-full h-72 my-10 px-16"
+      className="w-full h-72 my-10 px-16 rounded-sm"
     />
   );
 };
